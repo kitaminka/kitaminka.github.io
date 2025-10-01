@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.content img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid pink;
+    border-radius: 100%;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+.links a {
+    color: pink;
+    padding: 10px;
+    border: 2px dashed pink;
+    text-decoration: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.links a:hover {
+    color: palevioletred;
+    border: 2px dashed palevioletred;
+}
