@@ -44,6 +44,7 @@ body {
     justify-content: space-between;
     column-gap: 10px;
     align-items: center;
+    transition: color .2s, border .2s;
 }
 
 .links a:hover {
